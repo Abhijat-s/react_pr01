@@ -7,7 +7,10 @@ function App() {
   // let todos = ["Go To Gym", "Do your homework", "Keep wife happy"];
 
   // >>> Stateful Variables that we need to interact with
+  // >>> todos is the main todo list
   const [todos, setTodos] = useState([]);
+
+  // >>> todoValue is the new todo that is the input
   const [todoValue, setTodoValue] = useState("");
 
   function handleAddTodos(newTodo) {
